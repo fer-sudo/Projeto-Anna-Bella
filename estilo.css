@@ -1,0 +1,57 @@
+/*backgroud com uma cor, dps a url para achar a imagem do fundo, com o no-repeat para n repetir a imagem, tamanho da letra e o tipo*/
+
+body {
+	background: #d2d2c1 url('imagens/fundo1.png') no-repeat;
+	font: 16px Arial, Helvetica, sans sans-serif;
+}
+
+/*o id em forma de "#" e a estilizaçao do conteudo PINCIPAL com largura de 900 px onde nao ocupa a tela inteira onde tdos os outros vao seguir esse padra
+dps o #menu para estilizar o menu colocando o padding que aplica um espaçamento interno */
+
+#principal {
+	width: 900px;
+
+}
+
+#menu{
+	background: #c5c5b2;
+	padding: 18px;
+} 
+
+
+/*para o conteudo foi aplicado uma cor de fundo , e o padding para dar um espaçamento interno melhor*/
+#conteudo {
+	background: #e8e8d9;
+	padding: 10px;
+}
+
+/*foi criado essa id cepara centralizar o h4 do index onde vai centralizar aqla parte*/
+#rodape {
+	text-align: center;
+
+}
+
+/*o a serve para formatar a parte do aref os links que foram usados, foi usado tbem o texte decoration para tirar o anderline(o risco abaixo dos links) , o padding onde aplica um espaçamento entre as palavras*/
+
+a { 
+	color: #4b566a;
+	text-decoration: nome;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.centralizar {
+	text-align: center;
+}
+
+/*formatação para a imagem da ampanha*/
+.img-campanha { 
+	border: 10px solid #c3c3ae;
+}
+
+/*aqqui no h1 foi apliado uma cor, e um tamanho de fonte*/
+h1 {
+	color: #828271;
+	font-size: 1.2em;
+
+}
